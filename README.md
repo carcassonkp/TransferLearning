@@ -4,14 +4,16 @@ Implemented transferlearning for an EfficientNetV2L on the tf.flower dataset. Th
 
 ## Model without Augmentation
 
-Accuracy on test set is:0.9482288956642151
-Loss on test set is:0.18121804296970367
+Accuracy on test set is:0.948
+
+Loss on test set is:0.181
 
 
 ## Model without Augmentation
 
-Accuracy on test set is:0.9509536623954773
-Loss on test set is:0.17963309586048126
+Accuracy on test set is:0.951
+
+Loss on test set is:0.179
 
 
 
