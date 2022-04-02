@@ -34,7 +34,7 @@ IMG_SHAPE = 480
 X_train, y_train, X_test, y_test = prepare_dataset(data_dir, IMG_SHAPE)
 input_shape = X_train.shape[1:]
 # --------- Augmentation ---------
-AUGMENTATION = True
+AUGMENTATION = True # Disable if augmentation is not wanted
 if AUGMENTATION:
 
     model = tf.keras.applications.efficientnet_v2.EfficientNetV2L(include_top=True,
@@ -83,7 +83,7 @@ else:
     model = tf.keras.models.Model(
     inputs=model.input, outputs=new_output)
 
-LOAD_MODEL = False
+LOAD_MODEL = False # disable if it is first time training
 if LOAD_MODEL:
     model.load_weights('checkpoint/efficientnetv2_augmentation/')
 model.summary()
