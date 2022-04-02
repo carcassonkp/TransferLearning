@@ -17,14 +17,13 @@ Confusion matrix, without normalization
 
 Classification report:
                precision    recall  f1-score   support
-
            0       0.95      0.99      0.97       122
            1       0.97      0.96      0.97       161
            2       0.91      0.92      0.92       128
            3       0.95      0.96      0.96       150
            4       0.95      0.92      0.93       173
 
-    accuracy                           0.95       734
+   accuracy                            0.95       734
    macro avg       0.95      0.95      0.95       734
 weighted avg       0.95      0.95      0.95       734
 
@@ -43,14 +42,13 @@ Confusion matrix, without normalization
 
 Classification report:
                precision    recall  f1-score   support
-
            0       0.94      0.98      0.96       122
            1       0.96      0.96      0.96       161
            2       0.94      0.92      0.93       128
            3       0.97      0.96      0.97       150
            4       0.94      0.94      0.94       173
 
-    accuracy                           0.95       734
+   accuracy                            0.95       734
    macro avg       0.95      0.95      0.95       734
 weighted avg       0.95      0.95      0.95       734
 
