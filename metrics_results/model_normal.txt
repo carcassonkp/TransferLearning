@@ -1,0 +1,23 @@
+Accuracy on test set is:0.9482288956642151
+Loss on test set is:0.18121804296970367
+
+Confusion matrix, without normalization
+[[121   0   0   1   0]
+ [  3 154   0   4   0]
+ [  1   1 118   0   8]
+ [  1   2   2 144   1]
+ [  2   1   9   2 159]]
+
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97       122
+           1       0.97      0.96      0.97       161
+           2       0.91      0.92      0.92       128
+           3       0.95      0.96      0.96       150
+           4       0.95      0.92      0.93       173
+
+    accuracy                           0.95       734
+   macro avg       0.95      0.95      0.95       734
+weighted avg       0.95      0.95      0.95       734
